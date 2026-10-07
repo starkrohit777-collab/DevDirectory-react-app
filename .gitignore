@@ -1,2 +1,21 @@
+<<<<<<< HEAD
 node_modules
 dist
+=======
+# Node rules:
+## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+## Dependency directory
+## Commenting this out is preferred by some people, see
+## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Book build output
+_book
+
+# eBook build output
+*.epub
+*.mobi
+*.pdf
+>>>>>>> 6bea8eb130a24ea6d33452f43ab92b6049d721a0
