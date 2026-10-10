@@ -34,6 +34,7 @@ export default function UserProfile() {
         <Avatar user={user} size={88} />
         <div>
           <h1>{user.name}</h1>
+<<<<<<< HEAD
           <p className="muted">@{user.username} · {user.role}</p>
           <p className="profile-bio">{user.bio}</p><div className="profile-actions"><a className="btn btn-primary" href={user.github} target="_blank" rel="noreferrer">GitHub profile ↗</a><a className="btn btn-ghost" href={user.website} target="_blank" rel="noreferrer">Personal website ↗</a></div>
           <p className="small muted">⌖ {user.location} · {user.company.name}</p>
@@ -44,6 +45,18 @@ export default function UserProfile() {
         {posts.map((p) => (
           <article key={p.id} className="card post">
             <div className="project-title-row"><h3>{p.title}</h3><a className="project-link" href={p.url} target="_blank" rel="noreferrer" aria-label={`Open ${p.title}`}>↗</a></div>
+=======
+          <p className="muted">@{user.username} · {user.company.name}</p>
+          <p className="small">{user.email} · {user.phone} · {user.website}</p>
+          <p className="small muted">{user.address.street}, {user.address.city}</p>
+        </div>
+      </div>
+      <h2>Writeups <span className="count">{posts.length}</span></h2>
+      <div className="stack">
+        {posts.map((p) => (
+          <article key={p.id} className="card post">
+            <h3>{p.title}</h3>
+>>>>>>> ceda3109cfbd8ddaa4debd0f0066dbe9b3f23fc7
             <p>{p.body}</p>
           </article>
         ))}
