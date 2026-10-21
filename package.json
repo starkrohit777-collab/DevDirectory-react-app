@@ -1,10 +1,13 @@
 {
-  "name": "bca-frontend-devdirectory-ROLLNO",
+  "name": "devdirectory",
   "private": true,
   "version": "1.0.0",
+  "description": "DevDirectory - Modern Developer Discovery & Project Collaboration Workspace with Backend Tracking",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "server": "node server/server.js",
+    "start": "node server/server.js",
     "build": "vite build",
     "preview": "vite preview"
   },

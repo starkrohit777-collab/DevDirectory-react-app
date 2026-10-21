@@ -5,6 +5,8 @@ import { Avatar } from '../components/UserCard.jsx';
 import SkeletonLoader from '../components/SkeletonLoader.jsx';
 import AlertBanner from '../components/AlertBanner.jsx';
 import NotFound from './NotFound.jsx';
+import { useWorkspace } from '../context/WorkspaceContext.jsx';
+import { StatusBadge } from '../components/workspace/Parts.jsx';
 
 export default function UserProfile() {
   const { id } = useParams();
@@ -13,6 +15,7 @@ export default function UserProfile() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [notFound, setNotFound] = useState(false);
+  const { projects: teamProjects } = useWorkspace();
 
   const load = useCallback(() => {
     setLoading(true); setError(''); setNotFound(false);
@@ -48,6 +51,23 @@ export default function UserProfile() {
           </article>
         ))}
       </div>
+      {(() => {
+        const mine = teamProjects.filter((p) => p.members.some((m) => m.devId === user.id));
+        if (!mine.length) return null;
+        return (
+          <div className="ws-profile-projects">
+            <div className="section-heading"><div><span className="eyebrow">TEAM WORKSPACES</span><h2>Leading & collaborating <span className="count">{mine.length}</span></h2></div></div>
+            <div className="stack">
+              {mine.map((p) => (
+                <article key={p.id} className="card ws-mini-project">
+                  <div><h3><Link to={`/projects/${p.id}`}>{p.name}</Link></h3><p className="small muted">{p.members.find((m) => m.devId === user.id)?.role} · {p.members.length} developers</p></div>
+                  <div className="row"><StatusBadge status={p.status} />{p.leadKey === `dev-${user.id}` && <span className="ws-badge status-active">Project lead</span>}</div>
+                </article>
+              ))}
+            </div>
+          </div>
+        );
+      })()}
     </section>
   );
 }

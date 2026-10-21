@@ -1,9 +1,14 @@
 import { Link } from 'react-router-dom';
 import { developers } from '../data/developers.js';
 import UserCard from '../components/UserCard.jsx';
+import { useWorkspace } from '../context/WorkspaceContext.jsx';
+import { ProjectCard } from '../components/workspace/Parts.jsx';
 
 export default function Home() {
   const companies = new Set(developers.map((u) => u.company.name)).size;
+  const { projects, problems } = useWorkspace();
+  const activeProjects = projects.filter((p) => p.status === 'Active').slice(0, 3);
+  const openProblems = problems.filter((p) => p.status === 'Open').slice(0, 3);
   return (
     <div className="home-page">
       <section className="hero hero-panel">
@@ -31,6 +36,14 @@ export default function Home() {
       <section id="featured" className="featured-section">
         <div className="section-heading"><div><span className="eyebrow">A FEW PEOPLE TO KNOW</span><h2>Meet the makers.</h2></div><Link to="/users" className="text-link">View all developers ↗</Link></div>
         <div className="grid">{developers.slice(0,3).map(user=><UserCard key={user.id} user={user}/>)}</div>
+      </section>
+      <section className="ws-home">
+        <div className="section-heading"><div><span className="eyebrow">TEAMS AT WORK</span><h2>Projects with a leader and a team.</h2></div><Link to="/projects" className="text-link">All projects ↗</Link></div>
+        <div className="grid">{activeProjects.map((p) => <ProjectCard key={p.id} project={p} />)}</div>
+      </section>
+      <section className="ws-home">
+        <div className="section-heading"><div><span className="eyebrow">REAL PROBLEMS · REAL ANSWERS</span><h2>Help the developer community.</h2></div><Link to="/community" className="text-link">Community help ↗</Link></div>
+        <div className="ws-help-strip">{openProblems.map((q) => <Link key={q.id} to={`/community/${q.id}`}><span className="small muted">{q.tags.join(' · ')}</span><b>{q.title}</b><span className="small muted">{q.answers.length} answers · {q.upvotes.length} votes</span></Link>)}</div>
       </section>
       <p className="data-note">Profiles highlight public developer work and links. Some biographical summaries are editorial; verify details on each developer’s linked profiles.</p>
     </div>
