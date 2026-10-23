@@ -39,6 +39,22 @@ A modern developer discovery directory and collaborative project tracking platfo
 
 ---
 
+## 🎨 UI Redesign (v2)
+
+The interface was redesigned from a dark, neon "playful" look to a calm, professional light theme suited to an internal engineering portal.
+
+- **Design tokens** in `src/assets/index.css` (colour, radius, shadow, type) shared by every page.
+- **Typography:** Figtree (UI) + JetBrains Mono (usernames), self-hosted through `@fontsource` (no Google Fonts request).
+- **New Home hero** with a live developer-directory preview, plain-language copy and real stats.
+- **Cleaner components:** white cards with subtle borders, circular avatars, status badges, light Kanban board, consistent buttons and focus rings.
+- **Navbar/Login cleanup:** inline styles moved into CSS classes; mobile nav scrolls horizontally.
+- **Accessibility/responsive:** visible focus, reduced-motion support, layouts verified at 1366px and 390px.
+- Fixed: success banner showed `id undefined` after publishing a post.
+
+Run `npm install` once after replacing your files (new font packages were added), then `npm run dev`.
+
+---
+
 ## 🚀 Running the Project
 
 ### Prerequisites

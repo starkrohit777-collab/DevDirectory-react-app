@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
@@ -17,6 +17,12 @@ import NewProblem from './pages/NewProblem.jsx';
 import ProblemDetail from './pages/ProblemDetail.jsx';
 
 export default function App() {
+  const { pathname } = useLocation();
+
+  // The reference-inspired landing page is intentionally full-bleed;
+  // keep the standard site navigation on the other application routes.
+  if (pathname === '/') return <Home />;
+
   return (
     <>
       <Navbar />

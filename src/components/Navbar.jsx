@@ -46,61 +46,34 @@ export default function Navbar() {
           <input
             value={term}
             onChange={(e) => setTerm(e.target.value)}
-            placeholder="Search developers"
+            placeholder="Search developers…"
             aria-label="Search developers"
           />
         </form>
 
-        {isAuthenticated ? (
-          <div className="nav-user" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <Link
-              to="/projects/new"
-              className="btn btn-ghost btn-small hide-sm"
-              style={{ border: '1px solid rgba(197, 251, 103, 0.3)', color: '#c5fb67' }}
-            >
-              + Project
-            </Link>
-
-            <div
-              className="nav-profile-badge"
-              style={{ display: 'flex', alignItems: 'center', gap: '8px' }}
-              title={user.email}
-            >
-              <div
-                style={{
-                  width: '28px',
-                  height: '28px',
-                  borderRadius: '50%',
-                  background: 'linear-gradient(135deg, #7c3aed, #a855f7)',
-                  color: '#fff',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: '11px',
-                  fontWeight: '700',
+        <div className="nav-actions">
+          {isAuthenticated ? (
+            <div className="nav-user" title={user.email}>
+              <Link to="/projects/new" className="btn btn-ghost btn-small hide-sm">+ New project</Link>
+              <span className="nav-avatar" aria-hidden="true">{initials}</span>
+              <span className="nav-name hide-sm">{user.name}</span>
+              <button
+                className="btn btn-ghost btn-small"
+                onClick={async () => {
+                  await logout();
+                  navigate('/');
                 }}
               >
-                {initials}
-              </div>
-              <span className="hide-sm" style={{ fontWeight: '500' }}>{user.name}</span>
+                Log out
+              </button>
             </div>
-
-            <button
-              className="btn btn-ghost btn-small"
-              onClick={async () => {
-                await logout();
-                navigate('/');
-              }}
-            >
-              Log out
-            </button>
-          </div>
-        ) : (
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <Link to="/login" className="btn btn-ghost">Log in</Link>
-            <Link to="/signup" className="btn btn-primary">Sign up</Link>
-          </div>
-        )}
+          ) : (
+            <>
+              <Link to="/login" className="btn btn-ghost">Log in</Link>
+              <Link to="/signup" className="btn btn-primary">Sign up</Link>
+            </>
+          )}
+        </div>
       </div>
     </header>
   );

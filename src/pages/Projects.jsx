@@ -31,18 +31,17 @@ export default function Projects() {
     <section>
       <div className="page-head">
         <div>
-          <span className="eyebrow">TEAMS AT WORK</span>
           <h1>Projects</h1>
           <p className="muted directory-subtitle">
-            Every project has a lead, a team, a task board, and a discussion space. Follow real-time progress, contribute, or track your own projects.
+            Every project has a lead, a team, a task board and a discussion space. Track progress at a glance.
           </p>
         </div>
         <Link to="/projects/new" className="btn btn-primary btn-lg">+ New project</Link>
       </div>
 
       <div className="ws-stats">
-        <div><b>{String(projects.length).padStart(2, '0')}</b><span>tracked projects</span></div>
-        <div><b>{String(people).padStart(2, '0')}</b><span>collaborators</span></div>
+        <div><b>{projects.length}</b><span>tracked projects</span></div>
+        <div><b>{people}</b><span>collaborators</span></div>
         <div><b>{doneTasks}/{totalTasks}</b><span>tasks completed</span></div>
         <div><b>{problems.filter((x) => x.status === 'Solved').length}</b><span>community problems solved</span></div>
       </div>

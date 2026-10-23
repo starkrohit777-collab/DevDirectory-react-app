@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container footer-inner">
         <div>
           <Link to="/" className="brand"><span className="brand-mark">{'{ }'}</span> DevDirectory</Link>
-          <p className="muted small">Discover colleagues and share engineering notes.</p>
+          <p className="muted small">Find colleagues, track projects, share engineering notes.</p>
         </div>
         <nav className="footer-links" aria-label="Footer">
           <Link to="/">Home</Link>

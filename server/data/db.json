@@ -210,6 +210,73 @@
   ],
   "projects": [
     {
+      "id": "p-news-mvizxx2d",
+      "name": "News",
+      "tagline": "it is about to news",
+      "description": "lktperkg[prk lrekgre[k",
+      "status": "Completed",
+      "tags": [
+        "react"
+      ],
+      "repo": "https://github.com/starkrohit777-collab/NewsR-FirstReactProject-.git",
+      "demoUrl": "https://news-r-first-react-project-5g3u.vercel.app/",
+      "leadKey": "user-asha@company.dev",
+      "ownerEmail": "asha@company.dev",
+      "ownerName": "Asha Verma",
+      "createdAt": "2026-10-22T03:43:42.757Z",
+      "updatedAt": "2026-10-22T03:43:42.757Z",
+      "members": [
+        {
+          "key": "user-asha@company.dev",
+          "devId": 999,
+          "name": "Asha Verma",
+          "email": "asha@company.dev",
+          "role": "Project lead",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=96&auto=format&fit=crop&q=80",
+          "joinedAt": "2026-10-22T03:43:42.757Z"
+        }
+      ],
+      "requests": [],
+      "milestones": [
+        {
+          "id": "m-1",
+          "title": "Initial Project Planning & Scope",
+          "due": "2026-10-29",
+          "done": false
+        },
+        {
+          "id": "m-2",
+          "title": "Architecture & MVP Delivery",
+          "due": "2026-11-12",
+          "done": false
+        }
+      ],
+      "tasks": [],
+      "threads": [
+        {
+          "id": "th-1792640622757-1",
+          "kind": "Announcement",
+          "title": "Welcome to News!",
+          "body": "Project workspace initialized. Feel free to contribute ideas, pick up tasks, and join discussions.",
+          "author": "Asha Verma",
+          "at": "2026-10-22T03:43:42.757Z",
+          "pinned": true,
+          "upvotes": [
+            "Asha Verma"
+          ],
+          "replies": []
+        }
+      ],
+      "activity": [
+        {
+          "id": "a-1792640622757-1",
+          "actor": "Asha Verma",
+          "text": "created the project",
+          "at": "2026-10-22T03:43:42.757Z"
+        }
+      ]
+    },
+    {
       "id": "p-newsr-mvi8yiel",
       "name": "NewsR",
       "tagline": "It is about to news",
@@ -1130,5 +1197,31 @@
       "createdAt": "2026-10-19T14:45:07.439Z"
     }
   ],
-  "sessions": {}
+  "sessions": {
+    "tok_fa84a3942b59e26bb707b4507bba89aefabefc6e389a401f8d8668f38b23972b": {
+      "userId": "usr-asha",
+      "createdAt": "2026-10-22T03:41:54.558Z",
+      "expiresAt": "2026-11-21T03:41:54.558Z"
+    },
+    "tok_a25b0dd15567f8a07e5047061dc5211dd159930c9bfefbdd756190bf25d1a527": {
+      "userId": "usr-asha",
+      "createdAt": "2026-10-22T08:32:40.987Z",
+      "expiresAt": "2026-11-21T08:32:40.987Z"
+    },
+    "tok_1211736af16742da693334b5b43f1f9a1212b44372ea396e4ac5349ac74dbace": {
+      "userId": "usr-asha",
+      "createdAt": "2026-10-22T08:33:28.484Z",
+      "expiresAt": "2026-11-21T08:33:28.484Z"
+    },
+    "tok_be8e7845176d93dd6dc669abe8695047f5739e07087a58431f7608ff558c62a1": {
+      "userId": "usr-asha",
+      "createdAt": "2026-10-22T08:34:14.633Z",
+      "expiresAt": "2026-11-21T08:34:14.633Z"
+    },
+    "tok_7d53e74e13da374898c10dad8352ea351a89f3cc26c443f3e78981b7245b3c05": {
+      "userId": "usr-asha",
+      "createdAt": "2026-10-22T08:35:01.992Z",
+      "expiresAt": "2026-11-21T08:35:01.992Z"
+    }
+  }
 }

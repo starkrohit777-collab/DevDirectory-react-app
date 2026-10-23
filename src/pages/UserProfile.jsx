@@ -38,15 +38,15 @@ export default function UserProfile() {
         <div>
           <h1>{user.name}</h1>
           <p className="muted">@{user.username} · {user.role}</p>
-          <p className="profile-bio">{user.bio}</p><div className="profile-actions"><a className="btn btn-primary" href={user.github} target="_blank" rel="noreferrer">GitHub profile ↗</a><a className="btn btn-ghost" href={user.website} target="_blank" rel="noreferrer">Personal website ↗</a></div>
+          <p className="profile-bio">{user.bio}</p><div className="profile-actions"><a className="btn btn-primary" href={user.github} target="_blank" rel="noreferrer">GitHub profile</a><a className="btn btn-ghost" href={user.website} target="_blank" rel="noreferrer">Personal website</a></div>
           <p className="small muted">⌖ {user.location} · {user.company.name}</p>
         </div>
       </div>
-      <h2>Skills & expertise</h2><div className="skill-list profile-skills">{user.skills.map(skill => <span className="skill" key={skill}>{skill}</span>)}</div><div className="section-heading profile-project-heading"><div><span className="eyebrow">SELECTED WORK</span><h2>Projects & contributions <span className="count">{posts.length}</span></h2></div></div>
+      <h2>Skills & expertise</h2><div className="skill-list profile-skills">{user.skills.map(skill => <span className="skill" key={skill}>{skill}</span>)}</div><div className="section-heading profile-project-heading"><div><h2>Projects & contributions <span className="count">{posts.length}</span></h2></div></div>
       <div className="stack">
         {posts.map((p) => (
           <article key={p.id} className="card post">
-            <div className="project-title-row"><h3>{p.title}</h3><a className="project-link" href={p.url} target="_blank" rel="noreferrer" aria-label={`Open ${p.title}`}>↗</a></div>
+            <div className="project-title-row"><h3>{p.title}</h3><a className="project-link" href={p.url} target="_blank" rel="noreferrer" aria-label={`Open ${p.title}`}></a></div>
             <p>{p.body}</p>
           </article>
         ))}
@@ -56,7 +56,7 @@ export default function UserProfile() {
         if (!mine.length) return null;
         return (
           <div className="ws-profile-projects">
-            <div className="section-heading"><div><span className="eyebrow">TEAM WORKSPACES</span><h2>Leading & collaborating <span className="count">{mine.length}</span></h2></div></div>
+            <div className="section-heading"><div><h2>Leading & collaborating <span className="count">{mine.length}</span></h2></div></div>
             <div className="stack">
               {mine.map((p) => (
                 <article key={p.id} className="card ws-mini-project">

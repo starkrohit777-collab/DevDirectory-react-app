@@ -135,7 +135,7 @@ export default function Signup() {
         </label>
 
         <label>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <div className="form-row">
             <span>Password (min. 6 characters)</span>
             <button
               type="button"
@@ -211,10 +211,10 @@ export default function Signup() {
           {submitting ? 'Creating account…' : 'Sign up & start building'}
         </button>
 
-        <div style={{ textAlign: 'center', marginTop: '12px' }}>
+        <div className="form-foot">
           <span className="muted small">Already registered? </span>
           <Link to="/login" className="text-link small" state={{ from: location.state?.from }}>
-            Log in here ↗
+            Log in
           </Link>
         </div>
       </form>

@@ -25,7 +25,7 @@ export default function OverviewTab({ project, lead, actor, onOpenTab }) {
           <h3>About this project</h3>
           <p className="ws-body">{project.description}</p>
           <div className="skill-list">{project.tags.map((t) => <span className="skill" key={t}>{t}</span>)}</div>
-          {project.repo && <p className="small" style={{ marginTop: 14 }}><a className="text-link" href={project.repo} target="_blank" rel="noreferrer">Repository ↗</a></p>}
+          {project.repo && <p className="small" style={{ marginTop: 14 }}><a className="text-link" href={project.repo} target="_blank" rel="noreferrer">Repository</a></p>}
         </div>
 
         <div className="card">

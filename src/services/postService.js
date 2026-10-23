@@ -13,7 +13,7 @@ export const getUserPosts = async (id) => {
     id: `${user.id}-${index}`, title: project.name, body: project.description, url: project.url
   }));
 };
-export const createPost = async (payload) => ({ status: 201, data: payload });
+export const createPost = async (payload) => ({ status: 201, data: { id: 101, ...payload } });
 export const errorMessage = (err) => err.response
   ? `Server responded with ${err.response.status}. Please try again.`
   : 'Something went wrong. Please try again.';

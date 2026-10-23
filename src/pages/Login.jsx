@@ -71,7 +71,7 @@ export default function Login() {
         </label>
 
         <label>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <div className="form-row">
             <span>Password</span>
             <button
               type="button"
@@ -97,18 +97,18 @@ export default function Login() {
           {submitting ? 'Logging in…' : 'Log in'}
         </button>
 
-        <div style={{ textAlign: 'center', marginTop: '12px' }}>
+        <div className="form-foot">
           <span className="muted small">Don't have an account yet? </span>
           <Link to="/signup" className="text-link small" state={{ from: location.state?.from }}>
-            Create one here ↗
+            Create one
           </Link>
         </div>
 
-        <div className="card-bottom" style={{ marginTop: '16px', paddingTop: '16px', borderTop: '1px solid var(--border, #262933)' }}>
-          <p className="muted small" style={{ marginBottom: '8px' }}>
-            <b>Quick Demo Accounts</b> (password: <code style={{ color: '#c5fb67' }}>password123</code>):
+        <div className="demo-box">
+          <p className="muted small">
+            <b>Quick Demo Accounts</b> (password: <code>password123</code>):
           </p>
-          <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+          <div className="row">
             <button
               type="button"
               className="btn btn-ghost btn-small"

@@ -28,7 +28,7 @@ export default function UserDirectory() {
   return (
     <section>
       <div className="page-head">
-        <div><span className="eyebrow">THE PEOPLE BEHIND THE CODE</span><h1>Developer directory</h1><p className="muted directory-subtitle">Find your next collaborator, follow inspiring work, and explore the tools they build.</p></div>
+        <div><h1>Developer directory</h1><p className="muted directory-subtitle">Search by name, role, skill, company or location. Results update as you type.</p></div>
         <input className="search" type="search" placeholder="Search name, skill, role, location…" value={query} onChange={(e) => setQuery(e.target.value)} aria-label="Search developers" />
       </div>
       {error && <AlertBanner key={error + Date.now()} message={error} onRetry={load} />}

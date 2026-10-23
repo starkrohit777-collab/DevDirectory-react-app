@@ -4,6 +4,9 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 import { AuthProvider } from './context/AuthContext.jsx';
 import { WorkspaceProvider } from './context/WorkspaceContext.jsx';
+import '@fontsource-variable/figtree';
+import '@fontsource/jetbrains-mono/400.css';
+import '@fontsource/jetbrains-mono/500.css';
 import './assets/index.css';
 import './assets/workspace.css';
 

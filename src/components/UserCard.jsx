@@ -41,7 +41,7 @@ export default function UserCard({ user }) {
       <p className="role">{user.role}</p>
       <p className="bio-preview">{user.bio}</p>
       <div className="skill-list">{user.skills.slice(0, 3).map((skill) => <span className="skill" key={skill}>{skill}</span>)}</div>
-      <div className="card-bottom"><span>⌖ {user.location}</span><a href={user.github} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}>GitHub ↗</a></div>
+      <div className="card-bottom"><span>{user.location}</span><a href={user.github} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}>GitHub profile</a></div>
     </article>
   );
 }

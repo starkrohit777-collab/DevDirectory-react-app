@@ -40,7 +40,7 @@ export default function ProblemDetail() {
         <div className="skill-list">{q.tags.map((t) => <span className="skill" key={t}>{t}</span>)}</div>
         <div className="ws-thread-foot">
           <button type="button" className={`ws-vote${user && q.upvotes.includes(actor) ? ' on' : ''}`} disabled={!user} onClick={() => voteProblem(q.id, actor)} title={user ? 'This problem matters' : 'Log in to vote'}>▲ {q.upvotes.length} · I have this problem too</button>
-          {project && <Link className="text-link" to={`/projects/${project.id}`}>Linked project: {project.name} ↗</Link>}
+          {project && <Link className="text-link" to={`/projects/${project.id}`}>Linked project: {project.name}</Link>}
           {mine && (
             <>
               <select className="ws-mini" value={q.projectId} onChange={(e) => linkProblem(q.id, e.target.value)} aria-label="Link to project">

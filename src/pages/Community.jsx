@@ -23,7 +23,6 @@ export default function Community() {
     <section>
       <div className="page-head">
         <div>
-          <span className="eyebrow">REAL PROBLEMS · REAL ANSWERS</span>
           <h1>Community help</h1>
           <p className="muted directory-subtitle">Burnout, legacy code, slow reviews, career doubts — ask the problems developers actually face and learn from people who solved them.</p>
         </div>
@@ -57,7 +56,7 @@ export default function Community() {
                 <div className="skill-list">
                   {p.status === 'Solved' && <span className="ws-badge health-good">✓ Solved</span>}
                   {p.tags.map((t) => <span className="skill" key={t}>{t}</span>)}
-                  {project && <Link className="skill ws-proj-tag" to={`/projects/${project.id}`}>↗ {project.name}</Link>}
+                  {project && <Link className="skill ws-proj-tag" to={`/projects/${project.id}`}>{project.name}</Link>}
                 </div>
                 <p className="small muted">{p.author} · {timeAgo(p.at)}</p>
               </div>
