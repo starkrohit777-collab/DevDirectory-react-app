@@ -1,0 +1,1227 @@
+{
+  "users": [
+    {
+      "id": "usr-asha",
+      "devId": 999,
+      "name": "Asha Verma",
+      "username": "ashaverma",
+      "email": "asha@company.dev",
+      "role": "Full Stack Engineer",
+      "bio": "Building accessible and scalable web products. Passionate about community tools.",
+      "skills": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "PostgreSQL"
+      ],
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=96&auto=format&fit=crop&q=80",
+      "passwordHash": "91ff1d81708547da8e85822d363912d170fdb88b3c15d27e7f7f252f2baa8d6c6926ba0b886f0f8d386e398ff61206dfafe9ab4c7917576b34938b075474cd17",
+      "passwordSalt": "63502628f76bf5eb126e098c16b77f04",
+      "createdAt": "2026-09-21T14:45:07.305Z"
+    },
+    {
+      "id": "usr-dev-1",
+      "devId": 1,
+      "name": "Dan Abramov",
+      "username": "gaearon",
+      "email": "dan@example.dev",
+      "role": "React Core Team alumnus · Developer educator",
+      "bio": "JavaScript developer known for making complex frontend concepts easier to understand and for contributions to the React ecosystem.",
+      "skills": [
+        "React",
+        "JavaScript",
+        "Frontend architecture",
+        "Developer education"
+      ],
+      "avatar": "https://github.com/gaearon.png?size=96",
+      "location": "Remote",
+      "company": "Open-source community",
+      "github": "https://github.com/gaearon",
+      "website": "https://overreacted.io",
+      "passwordHash": "700a0344fc1e0176c5d9a52d20379e1972c0d036016ee6b684ae7afe3ba5d6556c8775a03ba9ab634564e620c0140bd96d1b8c2d0aed59ca4e25a5cb3a36fcf8",
+      "passwordSalt": "5ba401d23b822e8d696ab320d1ded9fd",
+      "createdAt": "2026-08-22T14:45:07.317Z"
+    },
+    {
+      "id": "usr-dev-2",
+      "devId": 2,
+      "name": "Kent C. Dodds",
+      "username": "kentcdodds",
+      "email": "hello@example.dev",
+      "role": "Software engineer · Educator",
+      "bio": "Focuses on testing, JavaScript, React, and helping developers build resilient applications.",
+      "skills": [
+        "React",
+        "Testing",
+        "TypeScript",
+        "Node.js",
+        "Education"
+      ],
+      "avatar": "https://github.com/kentcdodds.png?size=96",
+      "location": "Remote",
+      "company": "Epic Web",
+      "github": "https://github.com/kentcdodds",
+      "website": "https://kentcdodds.com",
+      "passwordHash": "debe59d6cd5b371fe9796c541838a7abf3352292ec3879405c93186bee1817d12cab1dee0082ed800336b4290837b38707f5ffeb20ce606d323b77b26f2bd453",
+      "passwordSalt": "d2ba06c615e9ebbeb3027497f35fa8e4",
+      "createdAt": "2026-08-22T14:45:07.332Z"
+    },
+    {
+      "id": "usr-dev-3",
+      "devId": 3,
+      "name": "Theo Browne",
+      "username": "t3dotgg",
+      "email": "hello@example.dev",
+      "role": "Full-stack engineer · Creator",
+      "bio": "Builds and discusses modern full-stack web applications, developer tools, and TypeScript workflows.",
+      "skills": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "tRPC",
+        "PostgreSQL"
+      ],
+      "avatar": "https://github.com/t3dotgg.png?size=96",
+      "location": "United States",
+      "company": "Ping.gg",
+      "github": "https://github.com/t3dotgg",
+      "website": "https://t3.gg",
+      "passwordHash": "c5988037b6203f16b65a561cda6ebe441bb18b761027f4f9617b7c6c9d78c41560619576369e05cc78dc0e87c27a5a1b0bf1fe699e050928fe5b0184b575d4af",
+      "passwordSalt": "6e243999b31cd3970e588c3e24ca517f",
+      "createdAt": "2026-08-22T14:45:07.347Z"
+    },
+    {
+      "id": "usr-dev-4",
+      "devId": 4,
+      "name": "Addy Osmani",
+      "username": "addyosmani",
+      "email": "hello@example.dev",
+      "role": "Engineering leader · Web performance",
+      "bio": "Writes about frontend performance, browser tooling, and building fast, user-friendly web experiences.",
+      "skills": [
+        "Web performance",
+        "JavaScript",
+        "Chrome DevTools",
+        "Frontend"
+      ],
+      "avatar": "https://github.com/addyosmani.png?size=96",
+      "location": "San Francisco Bay Area",
+      "company": "Google",
+      "github": "https://github.com/addyosmani",
+      "website": "https://addyosmani.com",
+      "passwordHash": "5d1d493c041397a046c6ab6a11dca9fae0f034bf9aecaa09d651482b5bc89c8b838dec3c304198e4381cdfe8a6f851fd0ad98711c39e75c5fc5b2005d5468a12",
+      "passwordSalt": "83a02c30ec033ef25e7927bf6b39928e",
+      "createdAt": "2026-08-22T14:45:07.364Z"
+    },
+    {
+      "id": "usr-dev-5",
+      "devId": 5,
+      "name": "Cassidy Williams",
+      "username": "cassidoo",
+      "email": "hello@example.dev",
+      "role": "Software engineer · Developer advocate",
+      "bio": "Works across frontend engineering, developer experience, and community education.",
+      "skills": [
+        "React",
+        "JavaScript",
+        "Developer relations",
+        "CSS",
+        "Community"
+      ],
+      "avatar": "https://github.com/cassidoo.png?size=96",
+      "location": "United States",
+      "company": "Developer community",
+      "github": "https://github.com/cassidoo",
+      "website": "https://cassidoo.co",
+      "passwordHash": "aad542a22e1bd548a86b107badbaadabb63ce461dad6afbb3af611a0a5592b598307bc5b7c56942da0767c1a93e1b4ed28c0141ce2f28c7f070975605ade27af",
+      "passwordSalt": "db46403405144c4c72d850a858535f9a",
+      "createdAt": "2026-08-22T14:45:07.380Z"
+    },
+    {
+      "id": "usr-dev-6",
+      "devId": 6,
+      "name": "Sarah Drasner",
+      "username": "sdras",
+      "email": "hello@example.dev",
+      "role": "Engineering leader · Author",
+      "bio": "Known for work in frontend engineering, animation, SVG, and making the web more expressive.",
+      "skills": [
+        "Vue.js",
+        "Animation",
+        "SVG",
+        "JavaScript",
+        "Design systems"
+      ],
+      "avatar": "https://github.com/sdras.png?size=96",
+      "location": "United States",
+      "company": "Web platform community",
+      "github": "https://github.com/sdras",
+      "website": "https://sarahdrasnerdesign.com",
+      "passwordHash": "bd409bac8230fcf408b0896943ee4c39085671f169deda402afba8f945e5e065152e88fdd1af30f57fe2a98689c7da049808a4b25f66cf22570d578b06b5997b",
+      "passwordSalt": "1622fb58448b7b7dc1bba8925334c649",
+      "createdAt": "2026-08-22T14:45:07.399Z"
+    },
+    {
+      "id": "usr-dev-7",
+      "devId": 7,
+      "name": "Lee Robinson",
+      "username": "leerob",
+      "email": "hello@example.dev",
+      "role": "Developer · Product builder",
+      "bio": "Shares practical guidance on React, Next.js, product engineering, and building for the web.",
+      "skills": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Developer experience"
+      ],
+      "avatar": "https://github.com/leerob.png?size=96",
+      "location": "Remote",
+      "company": "Vercel ecosystem",
+      "github": "https://github.com/leerob",
+      "website": "https://leerob.io",
+      "passwordHash": "13b8c4dd8069ef25b5f446f6795ad5715e248ea683cd6c96675a769cc0ff5cbd7bd512ca6eed169acb3f5bf51647f494fdef4790a1f6c566ee072729d506ddab",
+      "passwordSalt": "cbebb8ac0209499dcefe9c8a740bace4",
+      "createdAt": "2026-08-22T14:45:07.415Z"
+    },
+    {
+      "id": "usr-dev-8",
+      "devId": 8,
+      "name": "Guillermo Rauch",
+      "username": "rauchg",
+      "email": "hello@example.dev",
+      "role": "Founder · Infrastructure and web tooling",
+      "bio": "Builds tools and platforms that help developers ship performant web applications.",
+      "skills": [
+        "JavaScript",
+        "Infrastructure",
+        "React",
+        "Developer platforms"
+      ],
+      "avatar": "https://github.com/rauchg.png?size=96",
+      "location": "San Francisco Bay Area",
+      "company": "Vercel",
+      "github": "https://github.com/rauchg",
+      "website": "https://rauchg.com",
+      "passwordHash": "5540b1693839f85bb1329ddb8786faa820501cbdcefe06a0ef2ec03bf431d81f74a0182d71d9cc472daf80418819d7b90a02766c430a7de880465eab978a4ff1",
+      "passwordSalt": "2d2d65d571611b9f0d6bfd515782d3b8",
+      "createdAt": "2026-08-22T14:45:07.434Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p-news-mvizxx2d",
+      "name": "News",
+      "tagline": "it is about to news",
+      "description": "lktperkg[prk lrekgre[k",
+      "status": "Completed",
+      "tags": [
+        "react"
+      ],
+      "repo": "https://github.com/starkrohit777-collab/NewsR-FirstReactProject-.git",
+      "demoUrl": "https://news-r-first-react-project-5g3u.vercel.app/",
+      "leadKey": "user-asha@company.dev",
+      "ownerEmail": "asha@company.dev",
+      "ownerName": "Asha Verma",
+      "createdAt": "2026-10-22T03:43:42.757Z",
+      "updatedAt": "2026-10-22T03:43:42.757Z",
+      "members": [
+        {
+          "key": "user-asha@company.dev",
+          "devId": 999,
+          "name": "Asha Verma",
+          "email": "asha@company.dev",
+          "role": "Project lead",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=96&auto=format&fit=crop&q=80",
+          "joinedAt": "2026-10-22T03:43:42.757Z"
+        }
+      ],
+      "requests": [],
+      "milestones": [
+        {
+          "id": "m-1",
+          "title": "Initial Project Planning & Scope",
+          "due": "2026-10-29",
+          "done": false
+        },
+        {
+          "id": "m-2",
+          "title": "Architecture & MVP Delivery",
+          "due": "2026-11-12",
+          "done": false
+        }
+      ],
+      "tasks": [],
+      "threads": [
+        {
+          "id": "th-1792640622757-1",
+          "kind": "Announcement",
+          "title": "Welcome to News!",
+          "body": "Project workspace initialized. Feel free to contribute ideas, pick up tasks, and join discussions.",
+          "author": "Asha Verma",
+          "at": "2026-10-22T03:43:42.757Z",
+          "pinned": true,
+          "upvotes": [
+            "Asha Verma"
+          ],
+          "replies": []
+        }
+      ],
+      "activity": [
+        {
+          "id": "a-1792640622757-1",
+          "actor": "Asha Verma",
+          "text": "created the project",
+          "at": "2026-10-22T03:43:42.757Z"
+        }
+      ]
+    },
+    {
+      "id": "p-newsr-mvi8yiel",
+      "name": "NewsR",
+      "tagline": "It is about to news",
+      "description": "kwhdwnke knfoiewjklewm knffklsdmc",
+      "status": "Active",
+      "tags": [
+        "react"
+      ],
+      "repo": "https://github.com/starkrohit777-collab/NewsR-FirstReactProject-.git",
+      "demoUrl": "https://news-r-first-react-project-5g3u.vercel.app/",
+      "leadKey": "user-asha@company.dev",
+      "ownerEmail": "asha@company.dev",
+      "ownerName": "Asha Verma",
+      "createdAt": "2026-10-21T15:08:20.781Z",
+      "updatedAt": "2026-10-21T15:08:20.781Z",
+      "members": [
+        {
+          "key": "user-asha@company.dev",
+          "devId": 999,
+          "name": "Asha Verma",
+          "email": "asha@company.dev",
+          "role": "Project lead",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=96&auto=format&fit=crop&q=80",
+          "joinedAt": "2026-10-21T15:08:20.781Z"
+        }
+      ],
+      "requests": [],
+      "milestones": [
+        {
+          "id": "m-1",
+          "title": "Initial Project Planning & Scope",
+          "due": "2026-10-28",
+          "done": false
+        },
+        {
+          "id": "m-2",
+          "title": "Architecture & MVP Delivery",
+          "due": "2026-11-11",
+          "done": false
+        }
+      ],
+      "tasks": [],
+      "threads": [
+        {
+          "id": "th-1792595300782-1",
+          "kind": "Announcement",
+          "title": "Welcome to NewsR!",
+          "body": "Project workspace initialized. Feel free to contribute ideas, pick up tasks, and join discussions.",
+          "author": "Asha Verma",
+          "at": "2026-10-21T15:08:20.781Z",
+          "pinned": true,
+          "upvotes": [
+            "Asha Verma"
+          ],
+          "replies": []
+        }
+      ],
+      "activity": [
+        {
+          "id": "a-1792595300782-1",
+          "actor": "Asha Verma",
+          "text": "created the project",
+          "at": "2026-10-21T15:08:20.781Z"
+        }
+      ]
+    },
+    {
+      "id": "p-ui-kit",
+      "name": "Accessible UI Kit",
+      "tagline": "A component library where accessibility is the default.",
+      "description": "Open component library with keyboard support, screen-reader tested patterns and design tokens. Goal: ship v1.0 with 24 production-ready components and full documentation.",
+      "status": "Active",
+      "tags": [
+        "React",
+        "Accessibility",
+        "Design systems"
+      ],
+      "repo": "https://github.com/",
+      "leadKey": "dev-6",
+      "ownerEmail": "",
+      "createdAt": "2026-09-11T14:45:07.436Z",
+      "members": [
+        {
+          "key": "dev-6",
+          "devId": 6,
+          "name": "Sarah Drasner",
+          "email": "hello@example.dev",
+          "role": "Project lead"
+        },
+        {
+          "key": "dev-1",
+          "devId": 1,
+          "name": "Dan Abramov",
+          "email": "dan@example.dev",
+          "role": "Core developer"
+        },
+        {
+          "key": "dev-2",
+          "devId": 2,
+          "name": "Kent C. Dodds",
+          "email": "hello@example.dev",
+          "role": "Testing"
+        },
+        {
+          "key": "dev-7",
+          "devId": 7,
+          "name": "Lee Robinson",
+          "email": "hello@example.dev",
+          "role": "Docs & DX"
+        }
+      ],
+      "requests": [
+        {
+          "key": "req-1",
+          "name": "Riya Sharma",
+          "email": "riya@example.dev",
+          "message": "I have 3 years of a11y audit experience and can help with ARIA reviews.",
+          "at": "2026-10-20T14:45:07.436Z"
+        }
+      ],
+      "milestones": [
+        {
+          "id": "m-1",
+          "title": "Design tokens finalised",
+          "due": "2026-10-09",
+          "done": true
+        },
+        {
+          "id": "m-2",
+          "title": "Form components beta",
+          "due": "2026-10-30",
+          "done": false
+        },
+        {
+          "id": "m-3",
+          "title": "v1.0 public release",
+          "due": "2026-12-05",
+          "done": false
+        }
+      ],
+      "tasks": [
+        {
+          "id": "t-1",
+          "title": "Define colour-contrast tokens",
+          "desc": "",
+          "assignee": "dev-6",
+          "status": "done",
+          "priority": "High",
+          "due": "2026-10-11",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.436Z"
+        },
+        {
+          "id": "t-2",
+          "title": "Build accessible Dialog component",
+          "desc": "Focus trap, ESC to close, return focus to trigger.",
+          "assignee": "dev-1",
+          "status": "doing",
+          "priority": "High",
+          "due": "2026-10-24",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.436Z"
+        },
+        {
+          "id": "t-3",
+          "title": "Write keyboard-navigation tests",
+          "desc": "",
+          "assignee": "dev-2",
+          "status": "review",
+          "priority": "Medium",
+          "due": "2026-10-23",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.437Z"
+        },
+        {
+          "id": "t-4",
+          "title": "Document Combobox patterns",
+          "desc": "",
+          "assignee": "dev-7",
+          "status": "todo",
+          "priority": "Medium",
+          "due": "2026-10-29",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.437Z"
+        },
+        {
+          "id": "t-5",
+          "title": "Fix Tooltip focus bug on Safari",
+          "desc": "",
+          "assignee": "dev-1",
+          "status": "doing",
+          "priority": "Critical",
+          "due": "2026-10-19",
+          "blocked": true,
+          "blocker": "Need a Safari 17 device to reproduce.",
+          "createdAt": "2026-10-11T14:45:07.437Z"
+        },
+        {
+          "id": "t-6",
+          "title": "Set up automated axe-core CI check",
+          "desc": "",
+          "assignee": null,
+          "status": "todo",
+          "priority": "High",
+          "due": "2026-10-27",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.437Z"
+        }
+      ],
+      "threads": [
+        {
+          "id": "th-1",
+          "kind": "Announcement",
+          "title": "Welcome & contribution rules",
+          "body": "Please open a draft PR early, link it to a task, and request review from at least one other member. Weekly sync is on Thursday.",
+          "author": "Sarah Drasner",
+          "at": "2026-09-21T14:45:07.437Z",
+          "pinned": true,
+          "upvotes": [
+            "Dan Abramov",
+            "Kent C. Dodds"
+          ],
+          "replies": [
+            {
+              "id": "r-1-0",
+              "author": "Dan Abramov",
+              "body": "Got it — I will keep PRs small.",
+              "at": "2026-09-21T12:45:07.437Z"
+            }
+          ]
+        },
+        {
+          "id": "th-2",
+          "kind": "Decision",
+          "title": "Should we use CSS variables or a JS theme object for tokens?",
+          "body": "CSS variables work without a runtime and allow theming on any DOM subtree. A JS object gives type safety. Proposal: CSS variables + generated TypeScript types.",
+          "author": "Lee Robinson",
+          "at": "2026-10-15T14:45:07.437Z",
+          "pinned": false,
+          "upvotes": [
+            "Sarah Drasner",
+            "Kent C. Dodds",
+            "Dan Abramov"
+          ],
+          "replies": [
+            {
+              "id": "r-2-0",
+              "author": "Sarah Drasner",
+              "body": "Agree. Generated types give us the best of both.",
+              "at": "2026-10-15T11:45:07.437Z"
+            },
+            {
+              "id": "r-2-1",
+              "author": "Kent C. Dodds",
+              "body": "+1, and it keeps the bundle smaller.",
+              "at": "2026-10-15T09:45:07.437Z"
+            }
+          ]
+        },
+        {
+          "id": "th-3",
+          "kind": "Question",
+          "title": "How do we test screen-reader output reliably in CI?",
+          "body": "Manual NVDA/VoiceOver testing does not scale. Has anyone automated this?",
+          "author": "Kent C. Dodds",
+          "at": "2026-10-19T14:45:07.437Z",
+          "pinned": false,
+          "upvotes": [],
+          "replies": []
+        }
+      ],
+      "activity": [
+        {
+          "id": "a-1",
+          "actor": "Kent C. Dodds",
+          "text": "asked a question: “How do we test screen-reader output reliably in CI?”",
+          "at": "2026-10-19T14:45:07.437Z"
+        },
+        {
+          "id": "a-2",
+          "actor": "Dan Abramov",
+          "text": "moved “Fix Tooltip focus bug on Safari” to blocked",
+          "at": "2026-10-18T14:45:07.437Z"
+        },
+        {
+          "id": "a-3",
+          "actor": "Kent C. Dodds",
+          "text": "moved “Write keyboard-navigation tests” to In review",
+          "at": "2026-10-17T14:45:07.437Z"
+        },
+        {
+          "id": "a-4",
+          "actor": "Lee Robinson",
+          "text": "started a decision thread about design tokens",
+          "at": "2026-10-15T14:45:07.437Z"
+        },
+        {
+          "id": "a-5",
+          "actor": "Sarah Drasner",
+          "text": "completed milestone “Design tokens finalised”",
+          "at": "2026-10-09T14:45:07.437Z"
+        }
+      ]
+    },
+    {
+      "id": "p-collab",
+      "name": "Realtime Collab Editor",
+      "tagline": "Multiplayer text editing with conflict-free sync.",
+      "description": "A lightweight collaborative editor using CRDTs, presence cursors and offline support. Built to learn and to be reused by other teams in the community.",
+      "status": "Active",
+      "tags": [
+        "TypeScript",
+        "WebSockets",
+        "CRDT"
+      ],
+      "repo": "https://github.com/",
+      "leadKey": "dev-3",
+      "ownerEmail": "",
+      "createdAt": "2026-09-26T14:45:07.437Z",
+      "members": [
+        {
+          "key": "dev-3",
+          "devId": 3,
+          "name": "Theo Browne",
+          "email": "hello@example.dev",
+          "role": "Project lead"
+        },
+        {
+          "key": "dev-8",
+          "devId": 8,
+          "name": "Guillermo Rauch",
+          "email": "hello@example.dev",
+          "role": "Infrastructure"
+        },
+        {
+          "key": "dev-4",
+          "devId": 4,
+          "name": "Addy Osmani",
+          "email": "hello@example.dev",
+          "role": "Performance"
+        }
+      ],
+      "requests": [],
+      "milestones": [
+        {
+          "id": "m-1",
+          "title": "Local-first prototype",
+          "due": "2026-10-16",
+          "done": true
+        },
+        {
+          "id": "m-2",
+          "title": "Presence & cursors",
+          "due": "2026-11-02",
+          "done": false
+        }
+      ],
+      "tasks": [
+        {
+          "id": "t-1",
+          "title": "Prototype CRDT document model",
+          "desc": "",
+          "assignee": "dev-3",
+          "status": "done",
+          "priority": "High",
+          "due": "2026-10-15",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.437Z"
+        },
+        {
+          "id": "t-2",
+          "title": "WebSocket reconnection strategy",
+          "desc": "",
+          "assignee": "dev-8",
+          "status": "doing",
+          "priority": "High",
+          "due": "2026-10-25",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.437Z"
+        },
+        {
+          "id": "t-3",
+          "title": "Profile large-document typing latency",
+          "desc": "",
+          "assignee": "dev-4",
+          "status": "todo",
+          "priority": "Medium",
+          "due": "2026-10-31",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.438Z"
+        },
+        {
+          "id": "t-4",
+          "title": "Presence cursor overlay",
+          "desc": "",
+          "assignee": "dev-3",
+          "status": "todo",
+          "priority": "Medium",
+          "due": "2026-11-01",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.438Z"
+        }
+      ],
+      "threads": [
+        {
+          "id": "th-1",
+          "kind": "Discussion",
+          "title": "Yjs vs Automerge — which should we build on?",
+          "body": "Both are mature. Yjs is faster on large docs; Automerge has a friendlier data model. Let us list pros/cons here.",
+          "author": "Theo Browne",
+          "at": "2026-10-13T14:45:07.438Z",
+          "pinned": false,
+          "upvotes": [
+            "Addy Osmani"
+          ],
+          "replies": [
+            {
+              "id": "r-1-0",
+              "author": "Addy Osmani",
+              "body": "Benchmarks first, please. I can run a 1MB doc test.",
+              "at": "2026-10-13T10:45:07.438Z"
+            }
+          ]
+        }
+      ],
+      "activity": [
+        {
+          "id": "a-1",
+          "actor": "Addy Osmani",
+          "text": "replied in “Yjs vs Automerge”",
+          "at": "2026-10-13T14:45:07.438Z"
+        },
+        {
+          "id": "a-2",
+          "actor": "Guillermo Rauch",
+          "text": "moved “WebSocket reconnection strategy” to In progress",
+          "at": "2026-10-12T14:45:07.438Z"
+        }
+      ]
+    },
+    {
+      "id": "p-perf",
+      "name": "Performance Budget Dashboard",
+      "tagline": "Track Core Web Vitals regressions per pull request.",
+      "description": "Dashboard that posts performance budgets on every PR and graphs trends over time so slowdowns get caught before they ship.",
+      "status": "Planning",
+      "tags": [
+        "Performance",
+        "Node.js",
+        "CI"
+      ],
+      "repo": "",
+      "leadKey": "dev-4",
+      "ownerEmail": "",
+      "createdAt": "2026-10-15T14:45:07.438Z",
+      "members": [
+        {
+          "key": "dev-4",
+          "devId": 4,
+          "name": "Addy Osmani",
+          "email": "hello@example.dev",
+          "role": "Project lead"
+        },
+        {
+          "key": "dev-7",
+          "devId": 7,
+          "name": "Lee Robinson",
+          "email": "hello@example.dev",
+          "role": "Frontend"
+        },
+        {
+          "key": "dev-5",
+          "devId": 5,
+          "name": "Cassidy Williams",
+          "email": "hello@example.dev",
+          "role": "Product & content"
+        }
+      ],
+      "requests": [],
+      "milestones": [
+        {
+          "id": "m-1",
+          "title": "MVP scope agreed",
+          "due": "2026-10-26",
+          "done": false
+        }
+      ],
+      "tasks": [
+        {
+          "id": "t-1",
+          "title": "Write product requirements",
+          "desc": "",
+          "assignee": "dev-5",
+          "status": "doing",
+          "priority": "High",
+          "due": "2026-10-24",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.438Z"
+        },
+        {
+          "id": "t-2",
+          "title": "Choose metrics storage",
+          "desc": "",
+          "assignee": "dev-4",
+          "status": "todo",
+          "priority": "Medium",
+          "due": "2026-10-28",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.438Z"
+        },
+        {
+          "id": "t-3",
+          "title": "Wireframe dashboard views",
+          "desc": "",
+          "assignee": "dev-7",
+          "status": "todo",
+          "priority": "Low",
+          "due": "2026-10-30",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.438Z"
+        }
+      ],
+      "threads": [
+        {
+          "id": "th-1",
+          "kind": "Question",
+          "title": "Which metrics matter most to teams?",
+          "body": "LCP, INP, CLS are obvious. Should we also track bundle size and JS execution time?",
+          "author": "Cassidy Williams",
+          "at": "2026-10-18T14:45:07.438Z",
+          "pinned": false,
+          "upvotes": [],
+          "replies": [
+            {
+              "id": "r-1-0",
+              "author": "Addy Osmani",
+              "body": "Yes — bundle size is the cheapest early signal.",
+              "at": "2026-10-18T12:45:07.438Z"
+            }
+          ]
+        }
+      ],
+      "activity": [
+        {
+          "id": "a-1",
+          "actor": "Cassidy Williams",
+          "text": "asked a question: “Which metrics matter most to teams?”",
+          "at": "2026-10-18T14:45:07.438Z"
+        }
+      ]
+    },
+    {
+      "id": "p-mentor",
+      "name": "Open Source Mentorship Portal",
+      "tagline": "Match first-time contributors with friendly maintainers.",
+      "description": "A portal that matches newcomers with maintainers, lists “good first issues” and tracks mentorship progress to reduce contributor drop-off.",
+      "status": "Active",
+      "tags": [
+        "Community",
+        "Open source",
+        "Next.js"
+      ],
+      "repo": "https://github.com/",
+      "leadKey": "dev-5",
+      "ownerEmail": "",
+      "createdAt": "2026-08-22T14:45:07.438Z",
+      "members": [
+        {
+          "key": "dev-5",
+          "devId": 5,
+          "name": "Cassidy Williams",
+          "email": "hello@example.dev",
+          "role": "Project lead"
+        },
+        {
+          "key": "dev-1",
+          "devId": 1,
+          "name": "Dan Abramov",
+          "email": "dan@example.dev",
+          "role": "Maintainer liaison"
+        },
+        {
+          "key": "dev-2",
+          "devId": 2,
+          "name": "Kent C. Dodds",
+          "email": "hello@example.dev",
+          "role": "Mentor"
+        },
+        {
+          "key": "dev-6",
+          "devId": 6,
+          "name": "Sarah Drasner",
+          "email": "hello@example.dev",
+          "role": "Design"
+        }
+      ],
+      "requests": [],
+      "milestones": [
+        {
+          "id": "m-1",
+          "title": "Mentor onboarding flow",
+          "due": "2026-10-01",
+          "done": true
+        },
+        {
+          "id": "m-2",
+          "title": "Matching algorithm v1",
+          "due": "2026-10-18",
+          "done": true
+        },
+        {
+          "id": "m-3",
+          "title": "Public beta",
+          "due": "2026-11-04",
+          "done": false
+        }
+      ],
+      "tasks": [
+        {
+          "id": "t-1",
+          "title": "Mentor onboarding flow",
+          "desc": "",
+          "assignee": "dev-5",
+          "status": "done",
+          "priority": "High",
+          "due": "2026-10-01",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.438Z"
+        },
+        {
+          "id": "t-2",
+          "title": "Matching algorithm v1",
+          "desc": "",
+          "assignee": "dev-2",
+          "status": "done",
+          "priority": "High",
+          "due": "2026-10-18",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.438Z"
+        },
+        {
+          "id": "t-3",
+          "title": "Good-first-issue importer",
+          "desc": "",
+          "assignee": "dev-1",
+          "status": "done",
+          "priority": "Medium",
+          "due": "2026-10-20",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.438Z"
+        },
+        {
+          "id": "t-4",
+          "title": "Design progress tracker UI",
+          "desc": "",
+          "assignee": "dev-6",
+          "status": "review",
+          "priority": "Medium",
+          "due": "2026-10-23",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.438Z"
+        },
+        {
+          "id": "t-5",
+          "title": "Beta launch checklist",
+          "desc": "",
+          "assignee": "dev-5",
+          "status": "doing",
+          "priority": "High",
+          "due": "2026-10-31",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.438Z"
+        }
+      ],
+      "threads": [
+        {
+          "id": "th-1",
+          "kind": "Announcement",
+          "title": "Beta invite list is open",
+          "body": "Share names of maintainers who would like to join the closed beta.",
+          "author": "Cassidy Williams",
+          "at": "2026-10-16T14:45:07.438Z",
+          "pinned": true,
+          "upvotes": [],
+          "replies": []
+        }
+      ],
+      "activity": [
+        {
+          "id": "a-1",
+          "actor": "Sarah Drasner",
+          "text": "moved “Design progress tracker UI” to In review",
+          "at": "2026-10-20T14:45:07.438Z"
+        },
+        {
+          "id": "a-2",
+          "actor": "Cassidy Williams",
+          "text": "pinned “Beta invite list is open”",
+          "at": "2026-10-16T14:45:07.438Z"
+        }
+      ]
+    },
+    {
+      "id": "p-testing",
+      "name": "Testing Playbook",
+      "tagline": "Practical testing guidance for real-world teams.",
+      "description": "A living handbook of testing strategies for front-end teams: what to test, what to skip, and how to keep suites fast and trustworthy.",
+      "status": "On hold",
+      "tags": [
+        "Testing",
+        "Docs"
+      ],
+      "repo": "",
+      "leadKey": "dev-2",
+      "ownerEmail": "",
+      "createdAt": "2026-07-23T14:45:07.438Z",
+      "members": [
+        {
+          "key": "dev-2",
+          "devId": 2,
+          "name": "Kent C. Dodds",
+          "email": "hello@example.dev",
+          "role": "Project lead"
+        },
+        {
+          "key": "dev-1",
+          "devId": 1,
+          "name": "Dan Abramov",
+          "email": "dan@example.dev",
+          "role": "Reviewer"
+        }
+      ],
+      "requests": [],
+      "milestones": [
+        {
+          "id": "m-1",
+          "title": "Outline approved",
+          "due": "2026-09-11",
+          "done": true
+        }
+      ],
+      "tasks": [
+        {
+          "id": "t-1",
+          "title": "Outline chapters",
+          "desc": "",
+          "assignee": "dev-2",
+          "status": "done",
+          "priority": "Medium",
+          "due": "2026-09-11",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.438Z"
+        },
+        {
+          "id": "t-2",
+          "title": "Draft “Integration vs unit tests”",
+          "desc": "",
+          "assignee": "dev-2",
+          "status": "todo",
+          "priority": "Medium",
+          "due": "2026-11-10",
+          "blocked": false,
+          "blocker": "",
+          "createdAt": "2026-10-11T14:45:07.438Z"
+        }
+      ],
+      "threads": [],
+      "activity": [
+        {
+          "id": "a-1",
+          "actor": "Kent C. Dodds",
+          "text": "put the project on hold until next quarter",
+          "at": "2026-10-01T14:45:07.438Z"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "id": "q-1",
+      "title": "Burnout in small teams: how do you keep a sustainable pace?",
+      "body": "Our 4-person team keeps committing to aggressive sprints. We are tired and quality is dropping. What practices actually worked for you?",
+      "tags": [
+        "Team health",
+        "Process"
+      ],
+      "author": "Cassidy Williams",
+      "at": "2026-10-17T14:45:07.438Z",
+      "projectId": "",
+      "upvotes": [
+        "Dan Abramov",
+        "Kent C. Dodds",
+        "Sarah Drasner"
+      ],
+      "status": "Open",
+      "answers": [
+        {
+          "id": "ans-1-0",
+          "author": "Kent C. Dodds",
+          "body": "Commit to less. Plan to 70% capacity, keep a buffer for bugs, and have a \"no new work mid-sprint\" rule. Track cycle time, not hours.",
+          "at": "2026-10-17T17:45:07.439Z",
+          "votes": [],
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "q-2",
+      "title": "Legacy jQuery app: rewrite or migrate gradually?",
+      "body": "We maintain a 10-year-old jQuery app with no tests. Management wants a full React rewrite. Is that wise?",
+      "tags": [
+        "Legacy",
+        "Architecture"
+      ],
+      "author": "Lee Robinson",
+      "at": "2026-10-12T14:45:07.439Z",
+      "projectId": "p-ui-kit",
+      "upvotes": [
+        "Dan Abramov",
+        "Theo Browne"
+      ],
+      "status": "Solved",
+      "answers": [
+        {
+          "id": "ans-2-0",
+          "author": "Dan Abramov",
+          "body": "Avoid the big-bang rewrite. Wrap pages one at a time (strangler pattern), add characterization tests first, and ship each slice to production.",
+          "at": "2026-10-12T19:45:07.439Z",
+          "votes": [],
+          "accepted": true
+        },
+        {
+          "id": "ans-2-1",
+          "author": "Theo Browne",
+          "body": "Agree. Start with the highest-churn pages — that is where you recover the investment fastest.",
+          "at": "2026-10-12T21:45:07.439Z",
+          "votes": [],
+          "accepted": false
+        }
+      ]
+    },
+    {
+      "id": "q-3",
+      "title": "How to review pull requests faster without lowering quality?",
+      "body": "PRs sit for days in our team. Reviews are either rushed or never done. Ideas?",
+      "tags": [
+        "Code review",
+        "Process"
+      ],
+      "author": "Addy Osmani",
+      "at": "2026-10-19T14:45:07.439Z",
+      "projectId": "",
+      "upvotes": [
+        "Sarah Drasner"
+      ],
+      "status": "Open",
+      "answers": []
+    },
+    {
+      "id": "q-4",
+      "title": "Impostor syndrome as a junior: how do I ask questions without feeling stupid?",
+      "body": "I am a fresher and afraid to ask \"obvious\" questions in the team chat.",
+      "tags": [
+        "Career",
+        "Mentorship"
+      ],
+      "author": "Riya Sharma",
+      "at": "2026-10-20T14:45:07.439Z",
+      "projectId": "",
+      "upvotes": [
+        "Cassidy Williams",
+        "Kent C. Dodds"
+      ],
+      "status": "Open",
+      "answers": [
+        {
+          "id": "ans-4-0",
+          "author": "Sarah Drasner",
+          "body": "Share what you already tried when you ask. That turns it into a good question and people respond happily. Also write the answer into docs — you help the next person too.",
+          "at": "2026-10-20T15:45:07.439Z",
+          "votes": [],
+          "accepted": false
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1",
+      "userId": 1,
+      "title": "A quick tour of server-first React architecture",
+      "body": "Understanding the mental shift from client fetch loops to server components and streaming boundaries.",
+      "createdAt": "2026-10-16T14:45:07.439Z"
+    },
+    {
+      "id": "post-2",
+      "userId": 6,
+      "title": "Accessible Design Systems in Practice",
+      "body": "Why color contrast tokens and focus management must be built into components from day one.",
+      "createdAt": "2026-10-19T14:45:07.439Z"
+    }
+  ],
+  "sessions": {
+    "tok_fa84a3942b59e26bb707b4507bba89aefabefc6e389a401f8d8668f38b23972b": {
+      "userId": "usr-asha",
+      "createdAt": "2026-10-22T03:41:54.558Z",
+      "expiresAt": "2026-11-21T03:41:54.558Z"
+    },
+    "tok_a25b0dd15567f8a07e5047061dc5211dd159930c9bfefbdd756190bf25d1a527": {
+      "userId": "usr-asha",
+      "createdAt": "2026-10-22T08:32:40.987Z",
+      "expiresAt": "2026-11-21T08:32:40.987Z"
+    },
+    "tok_1211736af16742da693334b5b43f1f9a1212b44372ea396e4ac5349ac74dbace": {
+      "userId": "usr-asha",
+      "createdAt": "2026-10-22T08:33:28.484Z",
+      "expiresAt": "2026-11-21T08:33:28.484Z"
+    },
+    "tok_be8e7845176d93dd6dc669abe8695047f5739e07087a58431f7608ff558c62a1": {
+      "userId": "usr-asha",
+      "createdAt": "2026-10-22T08:34:14.633Z",
+      "expiresAt": "2026-11-21T08:34:14.633Z"
+    },
+    "tok_7d53e74e13da374898c10dad8352ea351a89f3cc26c443f3e78981b7245b3c05": {
+      "userId": "usr-asha",
+      "createdAt": "2026-10-22T08:35:01.992Z",
+      "expiresAt": "2026-11-21T08:35:01.992Z"
+    }
+  }
+}
