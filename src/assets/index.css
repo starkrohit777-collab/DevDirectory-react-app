@@ -387,6 +387,7 @@ body:has(.dd-home) { overflow-x: hidden; background: #edf2ff; }
 }
 
 
+
 /* Align featured developer card metrics and profile actions */
 .dd-dev-card {
   display: flex;
@@ -400,3 +401,4 @@ body:has(.dd-home) { overflow-x: hidden; background: #edf2ff; }
   margin-top: 10px;
   flex-shrink: 0;
 }
+
